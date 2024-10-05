@@ -20,9 +20,9 @@ The dataset used in this project contains the following information:
 Before modeling, the dataset underwent preprocessing to address the following:
 
 - Handling missing values and imbalanced classes.
+- Re-coding and collapsing some variables.
 - One-hot encoding for categorical variables.
-- Scaling for numeric features using robust scaling methods.
-- Addressing outliers through capping methods to reduce noise in the dataset.
+
 
 ## Models Used
 
@@ -35,7 +35,7 @@ Five different models were evaluated for their ability to predict hospital readm
 - Bagging Classifier
 
 ## Model Evaluation
-We evaluated the models based on the following:
+The models were evaluated based on the following:
 
 - Accuracy
 - Precision, Recall, F1-score
