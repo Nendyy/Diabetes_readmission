@@ -1,0 +1,4 @@
+{
+        "model_path": "models/bb_model.joblib",
+        "encoder_path": "models/encoder.joblib"   
+}
