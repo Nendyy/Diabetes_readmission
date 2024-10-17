@@ -64,6 +64,9 @@ For the Logistic Regression model, feature importance analysis revealed that the
 4. **Age Groups [50-60] and [0-40]**: Younger patients in these age brackets were at a higher risk of readmission.
 5. **Insulin Use**: Patients not using insulin had a higher chance of being readmitted compared to those with steady insulin levels.
 
+## Model Deployment
+Model was deployed on Streamlit and can be accessed [here](https://diabetes-readmission-prediction.streamlit.app/).
+
 ## Challenges Faced
 
 One of the key challenges was the high-class imbalance, where the majority of patients were not readmitted, making it difficult to train models effectively for the minority class (Class 1). Initial attempts to use SMOTE (Synthetic Minority Over-sampling Technique) resulted in overfitting, so the models instead leveraged class weighting techniques to handle the imbalance.
